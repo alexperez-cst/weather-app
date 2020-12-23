@@ -9,16 +9,22 @@
 <body>
 	<div id='headBar'>
 		<form id='searchForm'>
-			<img src="./img/search.png" alt="Search">
+			<img src="./img/search.png" alt="Search" id='search'>
 			<input type="text" name="city" id="city" placeholder="Enter city">
 		</form>
+		<div id ='formatSel'>
+			<div id='ball'></div>
+		</div>
 	</div>
 	<div id='tempInfo'>
 		<div id='weatherState'></div>
 		<div id='cityName'></div>
 		<div id='techinalWeather'>
-			<div id='temp'></div>
-			<div id='techinalTemp'></div>
+			<div id='temp'><p id='symbol'></p></div>
+			<div id='techinalTemp'>
+				<div id='wind'></div>
+				<div id='humidity'></div>
+			</div>
 		</div>
 	</div>
 </body>

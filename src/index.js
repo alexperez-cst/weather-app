@@ -1,2 +1,2 @@
-import {getData} from './apiConnection.js';
-//getData('barcelona','metric');
+import {displayData} from './domManipulation'
+displayData('Barcelona');
