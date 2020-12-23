@@ -37,7 +37,7 @@ const domInfo = (() => {
 })()
 export async function displayData(city){
 	const jsonData = await getData(city,format.getFormat());
-	domInfo.weatherState.textContent = jsonData.weather[0].description;
+	domInfo.weatherState.textContent = jsonData.weather[0].description.toUpperCase();
 	domInfo.cityName.textContent = `${jsonData.sys.country},${jsonData.name}`;
 	domInfo.temp.textContent = jsonData.main.temp;
 	domInfo.wind.textContent = `Wind: ${jsonData.wind.speed}`;
