@@ -69,12 +69,15 @@ body {
 	align-items: center;
 }
 #weatherState {
+	text-align: center;
 	font-size: 3vw;
 }
 #cityName {
+	text-align: center;
 	font-size: 5vw;
 }
 #temp {
+	text-align: center;
 	font-size: 11vw;
 }
 #techinalTemp {
